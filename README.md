@@ -211,6 +211,11 @@ set t_Co=256
 
 # Sensible tmux configuration (`C-a` FTW!)
 
+ * This configuration uses `C-a` instead of the default `C-b` as the lead hotkey.
+ * It uses more reasonable `C-a |` for vertical split and `C-a -` for horizontal split.
+ * VIM movement keys `hjkl` are accepted for movements across splits.
+ * This configuration supports 256 colour terminals and Emacs's "evil mode".
+
 ```
 #### USABILITY (VIM/Screen-like)
 set -g prefix C-a
