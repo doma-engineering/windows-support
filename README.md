@@ -1,3 +1,15 @@
+# Install WSL
+
+## Enable it as a Windows feature
+
+Relevant enough instructions about turning WSL2 on: https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
+Maybe this also: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+## Install Ubuntu 20.04 LTS without Microsoft Market
+
+ 1. [Get Ubuntu 20.04 installation file from here](https://aka.ms/wslubuntu2004)
+ 2. Extract files then run `ubuntu2004`.
+
 # WSL console is broken
 
 Some users report issues with `<Tab>` handling, some report issues with Unicode, some report both, some report none.
